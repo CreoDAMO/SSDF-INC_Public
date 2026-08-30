@@ -4,6 +4,18 @@ A static, single-page public site built from the Capability Statement. No
 login, no database, no backend — three files (`index.html`, `styles.css`,
 `script.js`) plus a minimal `vercel.json` for security headers.
 
+## Source repositories
+
+Product links on this site point at GitHub first. Public product sites are
+listed only when they are live.
+
+| Product | Source | Site |
+|---|---|---|
+| **AMAIMA** | [github.com/CreoDAMO/AMAIMA](https://github.com/CreoDAMO/AMAIMA) — **private, access by request only** | [basisguard.site](https://basisguard.site) (public product surface) |
+| **Genesis-Engine** | [github.com/CreoDAMO/Genesis-Engine](https://github.com/CreoDAMO/Genesis-Engine) | Site URL forthcoming |
+| **StackDesk** | [github.com/CreoDAMO/StackDesk](https://github.com/CreoDAMO/StackDesk) | Site URL forthcoming |
+| **BasisGuard** | [github.com/CreoDAMO/BasisGuard](https://github.com/CreoDAMO/BasisGuard) | [basisguard.site](https://basisguard.site) |
+
 ## Deploy to Vercel
 
 **Option A — no Git needed (fastest):**
@@ -25,7 +37,7 @@ login, no database, no backend — three files (`index.html`, `styles.css`,
 ## Editing content later
 
 All copy lives directly in `index.html`, organized by section comment
-(`<!-- HERO -->`, `<!-- CORE CAPABILITIES -->`, etc.). Colors and type live in
+(`<!-- HERO -->`, `<!-- SOURCE -->`, `<!-- CORE CAPABILITIES -->`, etc.). Colors and type live in
 `styles.css` under `:root` at the top of the file. No build step — edit and
 redeploy (or just push to GitHub if connected, and Vercel redeploys
 automatically).
