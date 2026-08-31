@@ -13,7 +13,8 @@ listed only when they are live.
 |---|---|---|
 | **AMAIMA** | [github.com/CreoDAMO/AMAIMA](https://github.com/CreoDAMO/AMAIMA) — **private, access by request only** | [basisguard.site](https://basisguard.site) (public product surface) |
 | **Genesis-Engine** | [github.com/CreoDAMO/Genesis-Engine](https://github.com/CreoDAMO/Genesis-Engine) | Site URL forthcoming |
-| **StackDesk** | [github.com/CreoDAMO/StackDesk](https://github.com/CreoDAMO/StackDesk) | Site URL forthcoming |
+| **StackDesk** | [github.com/CreoDAMO/StackDesk](https://github.com/CreoDAMO/StackDesk) | [stackdesk.online](https://stackdesk.online) |
+| **SSDF Digital Commerce** | [github.com/CreoDAMO/SSDF_DigitalCommerce](https://github.com/CreoDAMO/SSDF_DigitalCommerce) | [ssdf.site](https://ssdf.site) |
 | **BasisGuard** | [github.com/CreoDAMO/BasisGuard](https://github.com/CreoDAMO/BasisGuard) | [basisguard.site](https://basisguard.site) |
 
 ## Deploy to Vercel
