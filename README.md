@@ -12,7 +12,7 @@ listed only when they are live.
 | Product | Source | Site |
 |---|---|---|
 | **AMAIMA** | [github.com/CreoDAMO/AMAIMA](https://github.com/CreoDAMO/AMAIMA) — **private, access by request only** | [basisguard.site](https://basisguard.site) (public product surface) |
-| **Genesis-Engine** | [github.com/CreoDAMO/Genesis-Engine](https://github.com/CreoDAMO/Genesis-Engine) | Site URL forthcoming |
+| **Genesis-Engine** | [github.com/CreoDAMO/Genesis-Engine](https://github.com/CreoDAMO/Genesis-Engine) | [genesis-engine.site](https://www.genesis-engine.site) |
 | **StackDesk** | [github.com/CreoDAMO/StackDesk](https://github.com/CreoDAMO/StackDesk) | [stackdesk.online](https://stackdesk.online) |
 | **SSDF Digital Commerce** | [github.com/CreoDAMO/SSDF_DigitalCommerce](https://github.com/CreoDAMO/SSDF_DigitalCommerce) | [ssdf.site](https://ssdf.site) |
 | **BasisGuard** | [github.com/CreoDAMO/BasisGuard](https://github.com/CreoDAMO/BasisGuard) | [basisguard.site](https://basisguard.site) |
