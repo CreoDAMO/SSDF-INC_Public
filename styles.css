@@ -710,3 +710,46 @@ html.js .reveal.in { opacity: 1; transform: translateY(0); }
   .hero { padding: var(--space-6) 0 var(--space-5); }
   .header-cta .btn-ghost { display: none; }
 }
+
+/* Operating organs + engine */
+.engine-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.15rem;
+  align-items: center;
+}
+.engine-strip span { font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--cipher); }
+.engine-strip .arrow { color: var(--mist-dim); padding: 0 0.25rem; }
+.kind-label { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--seal); }
+.prime-list { display: flex; flex-direction: column; max-width: 40rem; }
+.prime-list li {
+  display: flex; gap: var(--space-4);
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--border-soft);
+}
+.prime-list li:last-child { border-bottom: 1px solid var(--border-soft); }
+.prime-n { font-family: var(--font-mono); font-size: 0.72rem; color: var(--seal); }
+.filter-bar { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: var(--space-3) 0; }
+.filter-chip {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em;
+  text-transform: uppercase; border: 1px solid var(--border); color: var(--mist);
+  background: transparent; padding: 0.4em 0.7em; border-radius: 2px; cursor: pointer;
+}
+.filter-chip.on { border-color: var(--cipher-dim); color: var(--cipher); background: var(--panel-2); }
+.code-table { width: 100%; border-collapse: collapse; }
+.code-table th {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--mist-dim); text-align: left;
+  padding: 0.75rem 0.5rem; border-bottom: 1px solid var(--border-soft); font-weight: 500;
+}
+.code-table td { padding: 0.75rem 0.5rem; border-bottom: 1px solid var(--border-soft); vertical-align: top; font-size: 0.88rem; }
+.code-table tr { cursor: pointer; }
+.code-table tr:hover { background: var(--panel); }
+.code-table tr.on { background: var(--panel-2); }
+.code-num { font-family: var(--font-mono); color: var(--cipher); font-size: 0.82rem; }
+.matrix-wrap { display: grid; grid-template-columns: 1.4fr 0.9fr; gap: 1px; background: var(--border-soft); border: 1px solid var(--border-soft); }
+.matrix-list { background: var(--void); overflow-x: auto; }
+.matrix-detail { background: var(--panel); padding: var(--space-4); }
+@media (max-width: 900px) {
+  .matrix-wrap { grid-template-columns: 1fr; }
+}
