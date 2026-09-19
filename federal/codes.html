@@ -5,13 +5,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Federal Codes — SSDF INC.</title>
-<meta name="description" content="SSDF INC. NAICS and PSC architecture: code → capability → organ → delivery model, with restrictions per code." />
+<meta name="description" content="SSDF INC. NAICS and PSC architecture: code → capability → owner → delivery model, with restrictions per code." />
 <link rel="canonical" href="https://www.ssdfinc.xyz/federal/codes">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="SSDF INC.">
 <meta property="og:title" content="Federal Codes — SSDF INC.">
-<meta property="og:description" content="NAICS and PSC matrix: code → capability → organ → delivery. A listed code is a contracting capability, not a payroll claim.">
+<meta property="og:description" content="NAICS and PSC matrix: code → capability → owner → delivery. A listed code is a contracting capability, not a payroll claim.">
 <meta property="og:url" content="https://www.ssdfinc.xyz/federal/codes">
 <meta property="og:image" content="https://www.ssdfinc.xyz/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -36,7 +36,7 @@
       <span class="brand-word">SSDF</span>
     </a>
     <nav class="primary-nav" aria-label="Primary">
-      <a href="/#organs">Organs</a>
+      <a href="/#structure">Structure</a>
       <a href="/federal">Federal</a>
       <a href="/federal/codes">Codes</a>
       <a href="/#source">Source</a>
@@ -48,7 +48,7 @@
     </div>
   </div>
   <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
-    <a href="/#organs">Organs</a>
+    <a href="/#structure">Structure</a>
     <a href="/federal">Federal</a>
     <a href="/federal/codes">Codes</a>
     <a href="/#source">Source</a>
@@ -60,7 +60,7 @@
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow">Federal codes</p>
-      <h1 class="hero-headline">Code → capability → organ → delivery.</h1>
+      <h1 class="hero-headline">Code → capability → owner → delivery.</h1>
       <p class="hero-sub">
         The FES stays readable. This page is the procurement architecture underneath it.
         A listed code is a contracting capability — not a claim that every labor or equipment
@@ -72,7 +72,7 @@
   <section class="section">
     <div class="wrap">
       <label class="sr-only" for="codeSearch" style="position:absolute;left:-9999px;">Search codes</label>
-      <input id="codeSearch" placeholder="Search code, capability, organ…" style="width:100%;background:var(--panel);color:var(--vellum);border:1px solid var(--border);padding:0.7rem 0.85rem;font-family:var(--font-mono);font-size:0.85rem;border-radius:3px;margin-bottom:1rem;">
+      <input id="codeSearch" placeholder="Search code, capability, owner…" style="width:100%;background:var(--panel);color:var(--vellum);border:1px solid var(--border);padding:0.7rem 0.85rem;font-family:var(--font-mono);font-size:0.85rem;border-radius:3px;margin-bottom:1rem;">
       <div class="filter-bar">
         <button class="filter-chip on" data-group="kind" data-filter="ALL">All</button>
         <button class="filter-chip" data-group="kind" data-filter="NAICS">NAICS</button>
@@ -98,7 +98,7 @@
         <div class="matrix-list">
           <table class="code-table">
             <thead>
-              <tr><th>Code</th><th>Capability</th><th>Organ</th><th>Delivery</th></tr>
+              <tr><th>Code</th><th>Capability</th><th>Owner</th><th>Delivery</th></tr>
             </thead>
             <tbody id="codeRows"></tbody>
           </table>
