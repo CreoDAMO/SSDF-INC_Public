@@ -1,0 +1,829 @@
+[
+  {
+    "code": "513210",
+    "kind": "NAICS",
+    "title": "Software Publishers",
+    "lane": "A",
+    "capability": "Software publishing",
+    "organs": "portfolio",
+    "organLabel": "SSDF / AMAIMA / MNEMOS / Commerce",
+    "delivery": "Direct",
+    "alsoLanes": [
+      "H"
+    ],
+    "why": "SSDF develops, licenses, and publishes software across AMAIMA, MNEMOS, StackDesk, Genesis Engine, BasisGuard, and Digital Commerce.",
+    "deliverable": "Licensed software, platform components, and published digital products.",
+    "restrictions": "License scope and export/ITAR classification evaluated per solicitation."
+  },
+  {
+    "code": "541511",
+    "kind": "NAICS",
+    "title": "Custom Computer Programming Services",
+    "lane": "A",
+    "capability": "Custom programming",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "alsoLanes": [
+      "H"
+    ],
+    "why": "SSDF and AMAIMA perform custom development of cryptographic, workflow, and operational software.",
+    "deliverable": "Application code, integrations, and defined software deliverables.",
+    "restrictions": "Place of performance, security, and IP terms are solicitation-specific."
+  },
+  {
+    "code": "541512",
+    "kind": "NAICS",
+    "title": "Computer Systems Design Services",
+    "lane": "A",
+    "capability": "Systems design",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "why": "Architecture, systems integration, and cryptographic infrastructure design are core SSDF work.",
+    "deliverable": "Architecture, integration, and system-design artifacts.",
+    "restrictions": "Classified or CUI work requires matching facility and personnel conditions."
+  },
+  {
+    "code": "518210",
+    "kind": "NAICS",
+    "title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+    "lane": "A",
+    "capability": "Infrastructure / data processing",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "why": "Claimed only where SSDF directly provides the applicable hosting, processing, or infrastructure service.",
+    "deliverable": "Compute, data processing, or hosted platform services actually operated by SSDF.",
+    "restrictions": "Not a claim of hyperscale data-center ownership. Scope limited to services SSDF directly provides.",
+    "conditional": true
+  },
+  {
+    "code": "7A20",
+    "kind": "PSC",
+    "title": "IT and Telecom — Application Development Software, Perpetual License Software",
+    "lane": "A",
+    "capability": "Application development software (perpetual license)",
+    "organs": "portfolio",
+    "organLabel": "SSDF portfolio",
+    "delivery": "Direct",
+    "alsoLanes": [
+      "H"
+    ],
+    "why": "SSDF licenses application-development software components from its portfolio.",
+    "deliverable": "Perpetual software license and associated documentation.",
+    "restrictions": "License grant, maintenance, and audit rights are contract-specific."
+  },
+  {
+    "code": "7A21",
+    "kind": "PSC",
+    "title": "IT and Telecom — Business Application Software, Perpetual License Software",
+    "lane": "A",
+    "capability": "Business application software (perpetual license)",
+    "organs": "portfolio",
+    "organLabel": "SSDF portfolio",
+    "delivery": "Direct",
+    "alsoLanes": [
+      "H"
+    ],
+    "why": "Business-application software (commerce, evidence, planning, production) is published by SSDF.",
+    "deliverable": "Perpetual business-application license.",
+    "restrictions": "Use restrictions and environment follow the license and solicitation."
+  },
+  {
+    "code": "7D20",
+    "kind": "PSC",
+    "title": "IT and Telecom — Service Delivery Management",
+    "lane": "A",
+    "capability": "Service delivery management",
+    "organs": [
+      "amaima",
+      "ab"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "why": "SSDF operates service-delivery and control-plane software for its platforms and federal execution layer.",
+    "deliverable": "Service-delivery management software or managed operation of that layer.",
+    "restrictions": "Does not imply ownership of the customer’s ITSM stack."
+  },
+  {
+    "code": "DA01",
+    "kind": "PSC",
+    "title": "Business Application / Application Development Support Services — Labor",
+    "lane": "A",
+    "capability": "Application development support (labor)",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "alsoLanes": [
+      "H"
+    ],
+    "why": "Labor for application development and support is a direct SSDF engagement model (T&M or fixed-price).",
+    "deliverable": "Development and support labor against a statement of work.",
+    "restrictions": "Labor categories, clearances, and place of performance are solicitation-specific."
+  },
+  {
+    "code": "DA10",
+    "kind": "PSC",
+    "title": "Business Application / Application Development Software as a Service",
+    "lane": "A",
+    "capability": "Business / application software SaaS",
+    "organs": "portfolio",
+    "organLabel": "SSDF portfolio",
+    "delivery": "Direct",
+    "alsoLanes": [
+      "H"
+    ],
+    "why": "Platform services (TaaS, commerce, evidence, production OS) are delivered as software-as-a-service.",
+    "deliverable": "SaaS access, usage tiers, and operational support.",
+    "restrictions": "FedRAMP and agency ATO are acquired per engagement, not claimed as already held."
+  },
+  {
+    "code": "DB01",
+    "kind": "PSC",
+    "title": "High Performance Computing Support Services — Labor",
+    "lane": "A",
+    "capability": "HPC support (labor)",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct + specialized resources",
+    "why": "FHE / HEXL cryptographic compute is HPC-class work. Labor is assembled against the requirement.",
+    "deliverable": "HPC support labor for cryptographic and scientific compute.",
+    "restrictions": "Facility, hardware, and clearance conditions evaluated per opportunity."
+  },
+  {
+    "code": "DB02",
+    "kind": "PSC",
+    "title": "Compute Support Services, Non-HPC — Labor",
+    "lane": "A",
+    "capability": "Compute support, non-HPC (labor)",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "why": "Non-HPC compute support for SSDF-operated platforms and customer deployments.",
+    "deliverable": "Compute support labor.",
+    "restrictions": "Scope limited to environments SSDF is contracted to operate or support."
+  },
+  {
+    "code": "DB10",
+    "kind": "PSC",
+    "title": "Compute as a Service — Mainframe / Servers",
+    "lane": "A",
+    "capability": "Compute as a service",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct / qualified partner",
+    "why": "Sovereign and domestic-kernel compute can be offered as a service where SSDF operates the stack.",
+    "deliverable": "Contracted compute capacity under SSDF control.",
+    "restrictions": "Not a claim of mainframe ownership. Partnered capacity disclosed when used.",
+    "conditional": true
+  },
+  {
+    "code": "DC01",
+    "kind": "PSC",
+    "title": "Data Center Support Services — Labor",
+    "lane": "A",
+    "capability": "Data center support (labor)",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Direct / qualified partner",
+    "why": "Labor for data-center support where SSDF is contracted to operate or oversee the environment.",
+    "deliverable": "Data-center support labor.",
+    "restrictions": "Physical facility access, union, and clearance rules are solicitation-specific.",
+    "conditional": true
+  },
+  {
+    "code": "DC10",
+    "kind": "PSC",
+    "title": "Data Center as a Service",
+    "lane": "A",
+    "capability": "Data center as a service",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct / qualified partner",
+    "why": "Sovereign deployment can include data-center-as-a-service structures using qualified facilities.",
+    "deliverable": "Hosted / sovereign data-center service under contract.",
+    "restrictions": "SSDF does not claim to own a national data-center fleet.",
+    "conditional": true
+  },
+  {
+    "code": "DD01",
+    "kind": "PSC",
+    "title": "Service Delivery Support Services / ITSM / Operations Center / Project-PM — Labor",
+    "lane": "A",
+    "capability": "ITSM / operations center / PM labor",
+    "organs": [
+      "amaima",
+      "ab"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "why": "Program, operations-center, and service-delivery labor is a native SSDF control-plane function.",
+    "deliverable": "ITSM, ops-center, and project-management labor.",
+    "restrictions": "On-site vs remote and clearance conditions follow the solicitation."
+  },
+  {
+    "code": "DE01",
+    "kind": "PSC",
+    "title": "End User / Help Desk / Workspace / Productivity Tools — Labor",
+    "lane": "A",
+    "capability": "End-user / help desk labor",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "End-user support can be assembled through qualified labor under SSDF control.",
+    "deliverable": "Help-desk and workspace support labor.",
+    "restrictions": "Limitations on subcontracting and wage determinations apply when imposed.",
+    "conditional": true
+  },
+  {
+    "code": "DE02",
+    "kind": "PSC",
+    "title": "Mobile Device Support Services — Labor",
+    "lane": "A",
+    "capability": "Mobile device support (labor)",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Mobile-device support is a fulfillment lane, not a standing internal help desk.",
+    "deliverable": "Mobile-device support labor.",
+    "restrictions": "MDM, device ownership, and privacy rules are solicitation-specific.",
+    "conditional": true
+  },
+  {
+    "code": "DE10",
+    "kind": "PSC",
+    "title": "End User as a Service",
+    "lane": "A",
+    "capability": "End user as a service",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "EUaaS is bid only when SSDF can assemble the managed-workspace stack under contract.",
+    "deliverable": "Managed end-user environment.",
+    "restrictions": "Device, identity, and network boundaries must be specified in the solicitation.",
+    "conditional": true
+  },
+  {
+    "code": "DE11",
+    "kind": "PSC",
+    "title": "Mobile Device as a Service",
+    "lane": "A",
+    "capability": "Mobile device as a service",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "MDaaS is a contract-specific fulfillment structure, not a standing carrier-style device fleet.",
+    "deliverable": "Managed mobile-device service.",
+    "restrictions": "Supply-chain and domestic-sourcing rules evaluated per opportunity.",
+    "conditional": true
+  },
+  {
+    "code": "DH01",
+    "kind": "PSC",
+    "title": "Platform Support Services — Database / Mainframe / Middleware — Labor",
+    "lane": "A",
+    "capability": "Platform support (labor)",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct",
+    "why": "Platform, database, and middleware support for SSDF-built cryptographic and operational stacks.",
+    "deliverable": "Platform support labor.",
+    "restrictions": "Mainframe labor is bid only where the requirement matches actual capability.",
+    "conditional": true
+  },
+  {
+    "code": "DH10",
+    "kind": "PSC",
+    "title": "Platform as a Service — Database / Mainframe / Middleware",
+    "lane": "A",
+    "capability": "Platform as a service",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct",
+    "why": "AMAIMA platform components can be delivered as PaaS for sovereign and enterprise deployments.",
+    "deliverable": "Managed platform service.",
+    "restrictions": "Not a generic AWS-style PaaS catalog. Scope is SSDF/AMAIMA platform components."
+  },
+  {
+    "code": "DJ01",
+    "kind": "PSC",
+    "title": "Security and Compliance Support Services — Labor",
+    "lane": "B",
+    "capability": "Security and compliance support (labor)",
+    "organs": [
+      "amaima",
+      "basisguard"
+    ],
+    "organLabel": "AMAIMA / BasisGuard",
+    "delivery": "Direct",
+    "why": "Cryptographic, compliance, and verification labor is a demonstrated AMAIMA/BasisGuard capability.",
+    "deliverable": "Security and compliance support labor, architecture, and review.",
+    "restrictions": "Does not claim FedRAMP authorization already in hand."
+  },
+  {
+    "code": "DJ10",
+    "kind": "PSC",
+    "title": "Security and Compliance as a Service",
+    "lane": "B",
+    "capability": "Security and compliance as a service",
+    "organs": [
+      "amaima",
+      "basisguard"
+    ],
+    "organLabel": "AMAIMA / BasisGuard",
+    "delivery": "Direct",
+    "why": "TaaS and cryptographic verification are production services, not documentation overlay.",
+    "deliverable": "Verification, attestation, and compliance services on a usage or subscription basis.",
+    "restrictions": "Service boundary and evidence standard defined in the SOW."
+  },
+  {
+    "code": "DG01",
+    "kind": "PSC",
+    "title": "Network Support Services — Labor",
+    "lane": "B",
+    "capability": "Network support (labor)",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct / qualified partner",
+    "why": "Network architecture and support for sovereign and platform deployments.",
+    "deliverable": "Network support labor.",
+    "restrictions": "Not a claim of nationwide NOC staffing."
+  },
+  {
+    "code": "DG10",
+    "kind": "PSC",
+    "title": "Network as a Service",
+    "lane": "B",
+    "capability": "Network as a service",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct / qualified partner",
+    "why": "NaaS is offered where SSDF operates or orchestrates the network layer of a contracted deployment.",
+    "deliverable": "Managed network service under contract.",
+    "restrictions": "Not a telecommunications common-carrier offering.",
+    "conditional": true
+  },
+  {
+    "code": "DG11",
+    "kind": "PSC",
+    "title": "Network: Satellite Communications and Telecom Access Services",
+    "lane": "B",
+    "capability": "Satellite communications / telecom access",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct / qualified partner",
+    "why": "AMAIMA implements independent multi-source satellite trust attestation (Galileo OSNMA, GPS, GLONASS) and related sovereign communications architecture. Retained as a serious capability candidate — not as a claim that SSDF is a commercial satellite carrier.",
+    "deliverable": "Satellite-trust attestation, related telecom-access architecture, and contracted communications services that match the actual technical implementation.",
+    "restrictions": "Evaluate against the exact technical implementation and solicitation. Do not interpret as conventional carrier or SATCOM fleet ownership.",
+    "conditional": true
+  },
+  {
+    "code": "541715",
+    "kind": "NAICS",
+    "title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
+    "lane": "C",
+    "capability": "Scientific R&D",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct + specialized resources",
+    "why": "AMAIMA’s cryptographic, AI, quantum-classical, verification, and sovereign-infrastructure work is applied and experimental R&D.",
+    "deliverable": "Research, prototypes, experimental development, and technical reports.",
+    "restrictions": "Nanotechnology and biotechnology are excluded by the NAICS definition used here."
+  },
+  {
+    "code": "AC11",
+    "kind": "PSC",
+    "title": "National Defense R&D Services — DoD — Military — Basic Research",
+    "lane": "C",
+    "capability": "Defense basic research",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct + specialized resources",
+    "why": "Cryptographic and computational research can support basic-research vehicles where the requirement matches.",
+    "deliverable": "Basic-research output under a defense R&D vehicle.",
+    "restrictions": "Security, publication, and ITAR/EAR restrictions control. Bid only against matching requirements.",
+    "conditional": true
+  },
+  {
+    "code": "AC12",
+    "kind": "PSC",
+    "title": "National Defense R&D Services — DoD — Military — Applied Research",
+    "lane": "C",
+    "capability": "Defense applied research",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct + specialized resources",
+    "why": "Applied cryptographic AI, verification, and quantum-classical routing are demonstrated AMAIMA work.",
+    "deliverable": "Applied-research artifacts and prototypes.",
+    "restrictions": "Facility and personnel security must match the solicitation."
+  },
+  {
+    "code": "AC13",
+    "kind": "PSC",
+    "title": "National Defense R&D Services — DoD — Military — Experimental Development",
+    "lane": "C",
+    "capability": "Defense experimental development",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "AMAIMA",
+    "delivery": "Direct + specialized resources",
+    "why": "Production FHE, PQ signing, and sovereign-ledger infrastructure is experimental development already running.",
+    "deliverable": "Experimental systems, test articles, and development evidence.",
+    "restrictions": "Does not claim prior DoD program-of-record past performance."
+  },
+  {
+    "code": "R425",
+    "kind": "PSC",
+    "title": "Professional Engineering / Technical Support",
+    "lane": "C",
+    "capability": "Engineering / technical support",
+    "organs": [
+      "amaima"
+    ],
+    "organLabel": "SSDF / AMAIMA",
+    "delivery": "Direct",
+    "why": "Systems architecture, cryptographic engineering, and technical support are native professional services.",
+    "deliverable": "Engineering and technical support labor and artifacts.",
+    "restrictions": "PE licensure is obtained per jurisdiction when the solicitation requires it.",
+    "conditional": true
+  },
+  {
+    "code": "R405",
+    "kind": "PSC",
+    "title": "Operations Research / Quantitative Analysis",
+    "lane": "C",
+    "capability": "Operations research / quantitative analysis",
+    "organs": [
+      "amaima",
+      "ab",
+      "genesis"
+    ],
+    "organLabel": "AMAIMA / SSDF AB / Genesis",
+    "delivery": "Direct",
+    "why": "Quantitative analysis, evolutionary search, and opportunity economics are operating capabilities.",
+    "deliverable": "Analysis, models, and research memoranda.",
+    "restrictions": "Not a claim of federally certified OR past performance."
+  },
+  {
+    "code": "541219",
+    "kind": "NAICS",
+    "title": "Other Accounting Services",
+    "lane": "D",
+    "capability": "Other accounting services",
+    "organs": [
+      "basisguard"
+    ],
+    "organLabel": "BasisGuard / SSDF",
+    "delivery": "Conditional",
+    "why": "Retained only where the corresponding service is actually offered (evidence, position records, management accounting support).",
+    "deliverable": "Accounting-related services that SSDF actually performs.",
+    "restrictions": "Not a CPA-firm representation. Bid only when the service is actually offered.",
+    "conditional": true
+  },
+  {
+    "code": "R408",
+    "kind": "PSC",
+    "title": "Professional Program Management / Support",
+    "lane": "D",
+    "capability": "Program management / support",
+    "organs": [
+      "amaima",
+      "ab"
+    ],
+    "organLabel": "SSDF",
+    "delivery": "Direct",
+    "why": "SSDF’s prime-contractor model is a program and control layer over execution.",
+    "deliverable": "Program management and professional support.",
+    "restrictions": "PMP or equivalent credentials acquired when a solicitation requires them."
+  },
+  {
+    "code": "R422",
+    "kind": "PSC",
+    "title": "Professional Market Research / Public Opinion",
+    "lane": "D",
+    "capability": "Market research / public opinion",
+    "organs": [
+      "ab"
+    ],
+    "organLabel": "SSDF AB",
+    "delivery": "Conditional",
+    "why": "Retained only where an actual qualifying research service is offered.",
+    "deliverable": "Market or opinion research that SSDF actually contracts to deliver.",
+    "restrictions": "Conditional. Not a standing polling house.",
+    "conditional": true
+  },
+  {
+    "code": "R702",
+    "kind": "PSC",
+    "title": "Management Data Collection",
+    "lane": "D",
+    "capability": "Management data collection",
+    "organs": [
+      "ab",
+      "basisguard"
+    ],
+    "organLabel": "SSDF / BasisGuard",
+    "delivery": "Direct",
+    "why": "Evidence, ledgers, and operational data collection are native to SSDF platforms.",
+    "deliverable": "Collected, attested management data.",
+    "restrictions": "Privacy, CUI, and records rules follow the solicitation."
+  },
+  {
+    "code": "R703",
+    "kind": "PSC",
+    "title": "Management Accounting",
+    "lane": "D",
+    "capability": "Management accounting",
+    "organs": [
+      "basisguard",
+      "commerce"
+    ],
+    "organLabel": "SSDF / BasisGuard",
+    "delivery": "Conditional",
+    "why": "Management accounting is offered where SSDF actually performs the service.",
+    "deliverable": "Management-accounting artifacts and support.",
+    "restrictions": "Not audited financial-statement services unless separately contracted and qualified.",
+    "conditional": true
+  },
+  {
+    "code": "R704",
+    "kind": "PSC",
+    "title": "Management Auditing",
+    "lane": "D",
+    "capability": "Management auditing",
+    "organs": [
+      "basisguard",
+      "amaima"
+    ],
+    "organLabel": "SSDF / BasisGuard / AMAIMA",
+    "delivery": "Conditional",
+    "why": "Verification and evidence review can constitute management-auditing support when that is the actual service.",
+    "deliverable": "Audit-support and verification work.",
+    "restrictions": "Not a PCAOB audit firm. Bid only for matching scopes.",
+    "conditional": true
+  },
+  {
+    "code": "R706",
+    "kind": "PSC",
+    "title": "Management Logistics Support",
+    "lane": "E",
+    "capability": "Logistics support",
+    "organs": [
+      "transport"
+    ],
+    "organLabel": "SSDF Transportation",
+    "delivery": "Direct",
+    "why": "SSDF Transportation provides the technology and operational control layer for logistics support.",
+    "deliverable": "Logistics coordination, evidence, and management support.",
+    "restrictions": "Does not automatically make SSDF the freight carrier."
+  },
+  {
+    "code": "R707",
+    "kind": "PSC",
+    "title": "Contract / Procurement / Acquisition Support",
+    "lane": "D",
+    "capability": "Acquisition support",
+    "organs": [
+      "ab"
+    ],
+    "organLabel": "SSDF",
+    "delivery": "Direct",
+    "why": "The Federal Opportunity Engine is acquisition-support machinery: discover, qualify, price, resource.",
+    "deliverable": "Acquisition-support analysis and program assistance.",
+    "restrictions": "Organizational conflict of interest reviewed per solicitation."
+  },
+  {
+    "code": "541614",
+    "kind": "NAICS",
+    "title": "Process, Physical Distribution, and Logistics Consulting Services",
+    "lane": "E",
+    "capability": "Logistics consulting",
+    "organs": [
+      "transport"
+    ],
+    "organLabel": "SSDF Transportation",
+    "delivery": "Direct",
+    "why": "Consulting on process, distribution, and logistics is offered where actually provided.",
+    "deliverable": "Logistics consulting and control-plane design.",
+    "restrictions": "Consulting is not operating authority as a carrier or broker.",
+    "conditional": true
+  },
+  {
+    "code": "V119",
+    "kind": "PSC",
+    "title": "Transportation / Travel / Relocation — Transportation: Other",
+    "lane": "E",
+    "capability": "Transportation: other",
+    "organs": [
+      "transport"
+    ],
+    "organLabel": "SSDF Transportation",
+    "delivery": "Contract-specific",
+    "why": "Transportation opportunities are evaluated for carrier, broker, equipment, insurance, and licensing before any bid.",
+    "deliverable": "Transportation-related services SSDF is authorized to perform on that contract.",
+    "restrictions": "SSDF does not represent itself as the actual transportation carrier simply because it operates dispatch infrastructure.",
+    "conditional": true
+  },
+  {
+    "code": "561210",
+    "kind": "NAICS",
+    "title": "Facilities Support Services",
+    "lane": "F",
+    "capability": "Facilities support",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Prime-plus-fulfillment lane. SSDF may organize qualified workforce and vendors under contract.",
+    "deliverable": "Facilities support performed through permitted execution partners under SSDF control.",
+    "restrictions": "Limitations on subcontracting, wage determinations, and licensing apply when imposed.",
+    "conditional": true
+  },
+  {
+    "code": "561720",
+    "kind": "NAICS",
+    "title": "Janitorial Services",
+    "lane": "F",
+    "capability": "Janitorial services",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Potential fulfillment category — not a claim of a standing internal janitorial workforce.",
+    "deliverable": "Janitorial services via qualified fulfillment under SSDF prime.",
+    "restrictions": "SCA, union, and security-escort rules follow the solicitation.",
+    "conditional": true
+  },
+  {
+    "code": "561730",
+    "kind": "NAICS",
+    "title": "Landscaping Services",
+    "lane": "F",
+    "capability": "Landscaping services",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Potential fulfillment category under the prime-plus-fulfillment model.",
+    "deliverable": "Landscaping / groundskeeping via qualified fulfillment.",
+    "restrictions": "Licensing, equipment, and place-of-performance conditions apply.",
+    "conditional": true
+  },
+  {
+    "code": "561790",
+    "kind": "NAICS",
+    "title": "Other Services to Buildings and Dwellings",
+    "lane": "F",
+    "capability": "Other building services",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Catch-all building-services lane for qualified fulfillment where the solicitation permits.",
+    "deliverable": "Specified building services under SSDF control.",
+    "restrictions": "Trade licensing evaluated per task.",
+    "conditional": true
+  },
+  {
+    "code": "562910",
+    "kind": "NAICS",
+    "title": "Remediation Services",
+    "lane": "F",
+    "capability": "Remediation services",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Disaster and facilities remediation may be assembled through qualified specialized vendors.",
+    "deliverable": "Remediation performed by qualified resources under SSDF prime.",
+    "restrictions": "Environmental licenses, bonding, and OSHA rules are mandatory gates.",
+    "conditional": true
+  },
+  {
+    "code": "562998",
+    "kind": "NAICS",
+    "title": "All Other Miscellaneous Waste Management Services",
+    "lane": "F",
+    "capability": "Miscellaneous waste management",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Waste and cleanup support for disaster and facilities work, via qualified vendors.",
+    "deliverable": "Specified waste-management services.",
+    "restrictions": "Hauler permits and disposal-facility rules are solicitation-specific.",
+    "conditional": true
+  },
+  {
+    "code": "S201",
+    "kind": "PSC",
+    "title": "Housekeeping — Custodial / Janitorial",
+    "lane": "F",
+    "capability": "Custodial / janitorial",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Federal housekeeping lane corresponding to janitorial fulfillment.",
+    "deliverable": "Custodial services under SSDF prime.",
+    "restrictions": "Not a representation that SSDF currently employs the entire trade workforce.",
+    "conditional": true
+  },
+  {
+    "code": "S205",
+    "kind": "PSC",
+    "title": "Housekeeping — Trash / Garbage Collection",
+    "lane": "F",
+    "capability": "Trash / garbage collection",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Fulfillment lane for collection services where permitted.",
+    "deliverable": "Collection services via qualified vendors.",
+    "restrictions": "Local franchise and permit rules may bar performance.",
+    "conditional": true
+  },
+  {
+    "code": "S206",
+    "kind": "PSC",
+    "title": "Housekeeping — Guard",
+    "lane": "F",
+    "capability": "Guard services",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Guard services only through licensed security resources under contract.",
+    "deliverable": "Guard services via licensed fulfillment.",
+    "restrictions": "State guard licensing, weapons, and suitability investigations are hard gates.",
+    "conditional": true
+  },
+  {
+    "code": "S208",
+    "kind": "PSC",
+    "title": "Housekeeping — Landscaping / Groundskeeping",
+    "lane": "F",
+    "capability": "Landscaping / groundskeeping",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Qualified fulfillment",
+    "why": "Groundskeeping fulfillment under the prime-plus-fulfillment model.",
+    "deliverable": "Landscaping and groundskeeping via qualified resources.",
+    "restrictions": "Equipment, chemicals, and wage rules follow the solicitation.",
+    "conditional": true
+  },
+  {
+    "code": "561311",
+    "kind": "NAICS",
+    "title": "Employment Placement Agencies",
+    "lane": "G",
+    "capability": "Employment placement",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Contract-specific",
+    "why": "Capability-building lane — not a representation that SSDF currently operates a conventional staffing agency.",
+    "deliverable": "Placement services if and when the contract structure and licensing permit.",
+    "restrictions": "State employment-agency licensing and FLSA status are evaluated before any bid.",
+    "conditional": true
+  },
+  {
+    "code": "561320",
+    "kind": "NAICS",
+    "title": "Temporary Help Services",
+    "lane": "G",
+    "capability": "Temporary help",
+    "organs": "operations",
+    "organLabel": "SSDF Operations",
+    "delivery": "Contract-specific",
+    "why": "Workforce is evaluated by labor category, place of performance, wage, licensing, and subcontracting limits.",
+    "deliverable": "Temporary help under a contract-specific structure.",
+    "restrictions": "SSDF does not claim to currently operate a conventional staffing agency.",
+    "conditional": true
+  }
+]
