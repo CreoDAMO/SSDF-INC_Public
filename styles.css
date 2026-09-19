@@ -553,7 +553,58 @@ img, svg { display: block; max-width: 100%; }
 }
 
 /* Source / product grid */
-#source { scroll-margin-top: 88px; }
+#source, #structure, #organs, #portfolio { scroll-margin-top: 88px; }
+
+.hierarchy {
+  border: 1px solid var(--cipher-dim);
+  background: var(--panel);
+}
+.hierarchy-parent {
+  padding: var(--space-5);
+  border-bottom: 1px solid var(--border-soft);
+}
+.hierarchy-parent h3,
+.hierarchy-child h3 { font-size: 1.35rem; margin: 0.4rem 0 0.55rem; }
+.hierarchy-parent p,
+.hierarchy-child > p { color: var(--mist); font-size: 0.95rem; max-width: 62ch; }
+.hierarchy-owns {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--seal);
+  padding: 0.65rem var(--space-5);
+  background: var(--void-2);
+  border-bottom: 1px solid var(--border-soft);
+}
+.hierarchy-child { padding: var(--space-5) var(--space-5) var(--space-5) 3.2rem; }
+.hierarchy-note {
+  border-top: 1px solid var(--border-soft);
+  background: var(--void-2);
+  padding: var(--space-3) var(--space-5);
+  font-size: 0.82rem;
+  color: var(--mist);
+  line-height: 1.55;
+}
+.amaima-lanes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border-soft);
+  margin: var(--space-4) 0;
+}
+.amaima-lane { background: var(--void); padding: var(--space-3); }
+.amaima-lane h4 { font-size: 0.98rem; margin: 0.4rem 0 0.3rem; }
+.amaima-lane p { font-size: 0.82rem; color: var(--mist); }
+.hierarchy-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+.hierarchy-links a { color: var(--cipher); }
+.hierarchy-links a:hover { text-decoration: underline; }
 
 .source-grid {
   display: grid;
@@ -695,6 +746,8 @@ html.js .reveal.in { opacity: 1; transform: translateY(0); }
   .cap-grid { grid-template-columns: 1fr; }
   .model-grid { grid-template-columns: 1fr; }
   .source-grid { grid-template-columns: 1fr; }
+  .amaima-lanes { grid-template-columns: 1fr; }
+  .hierarchy-child { padding-left: var(--space-4); }
   .portfolio-panel { grid-template-columns: 1fr; }
   .portfolio-figure { border-right: none; padding-right: 0; border-bottom: 1px solid var(--border-soft); padding-bottom: var(--space-4); }
   .readiness-grid { grid-template-columns: 1fr; gap: var(--space-5); }
