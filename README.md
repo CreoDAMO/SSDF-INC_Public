@@ -62,8 +62,9 @@ SSDF Transportation is **not** a motor carrier merely by operating dispatch soft
 | Operating company | AMAIMA INC. — Florida C-Corporation, wholly owned |
 | UEI | WBXSLSMUYE29 (issued) |
 | DUNS | 14-790-8413 |
-| SAM.gov | Active — SSDF INC / WBXSLSMUYE29 / 25J93 |
+| SAM.gov | ACTIVE |
 | CAGE | 25J93 |
+| SAM renewal | September 18, 2027 |
 | Disaster Response Registry | Yes — all of the United States |
 
 ## Pages
