@@ -30,11 +30,12 @@ SSDF INC.                          Parent / Holding Company
 SSDF INC. operating portfolio
 ├── BasisGuard
 ├── MNEMOS
-├── SSDF Transportation
+├── SSDF Transportation          ssdftransport.site
 ├── Digital Commerce
 ├── StackDesk
 ├── Genesis Engine
-└── SSDF AB — Internal discovery infrastructure
+├── SSDF AB — Internal discovery infrastructure
+└── SSDF O2O — Internal company system (ssdfo2o.site)
 ```
 
 | Surface | Legal status | Source | Site |
@@ -42,14 +43,16 @@ SSDF INC. operating portfolio
 | **AMAIMA INC.** | Wholly owned operating company | [CreoDAMO/AMAIMA](https://github.com/CreoDAMO/AMAIMA) (private, request only) | [basisguard.site](https://basisguard.site) |
 | **BasisGuard** | Platform of SSDF INC. | [CreoDAMO/BasisGuard](https://github.com/CreoDAMO/BasisGuard) | [basisguard.site](https://basisguard.site) |
 | **MNEMOS** | Platform of SSDF INC. | [CreoDAMO/MNEMOS](https://github.com/CreoDAMO/MNEMOS) | [mnemosstudio.site](https://www.mnemosstudio.site) |
-| **SSDF Transportation** | Operations platform of SSDF INC. | [CreoDAMO/SSDF-Transport](https://github.com/CreoDAMO/SSDF-Transport) | Forthcoming |
+| **SSDF Transportation** | Operations platform of SSDF INC. | [CreoDAMO/SSDF-Transport](https://github.com/CreoDAMO/SSDF-Transport) (private) | [ssdftransport.site](https://www.ssdftransport.site) |
 | **SSDF Digital Commerce** | Business line of SSDF INC. | [CreoDAMO/SSDF_DigitalCommerce](https://github.com/CreoDAMO/SSDF_DigitalCommerce) | [ssdf.site](https://ssdf.site) |
 | **StackDesk** | Platform of SSDF INC. | [CreoDAMO/StackDesk](https://github.com/CreoDAMO/StackDesk) | [stackdesk.online](https://stackdesk.online) |
 | **Genesis Engine** | Research infrastructure of SSDF INC. | [CreoDAMO/Genesis-Engine](https://github.com/CreoDAMO/Genesis-Engine) | [genesis-engine.site](https://www.genesis-engine.site) |
 | **SSDF AB** | Internal infrastructure of SSDF INC. | [CreoDAMO/SSDF-AB](https://github.com/CreoDAMO/SSDF-AB) | [ssdf-ab.xyz](https://www.ssdf-ab.xyz) (internal surface) |
+| **SSDF O2O** | Internal company system of SSDF INC. | [CreoDAMO/SSDF-O2O](https://github.com/CreoDAMO/SSDF-O2O) (private) | [ssdfo2o.site](https://www.ssdfo2o.site) (internal) |
 
 SSDF AB is **not** a separate company or customer-facing subsidiary.
-SSDF Transportation is **not** a motor carrier merely by operating dispatch software.
+SSDF O2O is **not** a public product. ssdfo2o.site is an internal company site.
+SSDF Transportation is **not** a motor carrier merely by operating dispatch software or ssdftransport.site.
 
 ## Federal identity
 
@@ -59,8 +62,8 @@ SSDF Transportation is **not** a motor carrier merely by operating dispatch soft
 | Operating company | AMAIMA INC. — Florida C-Corporation, wholly owned |
 | UEI | WBXSLSMUYE29 (issued) |
 | DUNS | 14-790-8413 |
-| SAM.gov | Submitted / pending activation |
-| CAGE | Pending SAM activation / assignment |
+| SAM.gov | Active — SSDF INC / WBXSLSMUYE29 / 25J93 |
+| CAGE | 25J93 |
 | Disaster Response Registry | Yes — all of the United States |
 
 ## Pages
